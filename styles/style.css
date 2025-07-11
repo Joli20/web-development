@@ -39,3 +39,6 @@ header,button{
     display: flex;
     justify-content: space-between;
 }
+.it{
+    display: flex;
+}
