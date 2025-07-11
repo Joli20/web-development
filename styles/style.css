@@ -13,14 +13,29 @@ nav{
     
     display: flex;
     justify-content: space-between; 
-   
-   
-
-
-}
+    weight: 1140px;
+    height: 151px;
+   }
+   button{
+    background-color: #4E47FF;
+    border-radius: 10px;
+    : #FFFFFF;
+   }
 h1{
     text-align: center;
+    
 }
 header,button{
     text-align: center;
+}
+.logo{
+    background-image: url(../Assets/Hero-bg.png);
+     weight: 1440px;
+    height: 698px;
+}
+
+
+.home{
+    display: flex;
+    justify-content: space-between;
 }
