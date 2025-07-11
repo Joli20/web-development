@@ -1,0 +1,26 @@
+*{
+    margin: auto;
+    padding: 10px;
+}
+.logo{
+    weight: 1440px;
+    height: 698px;
+    
+}
+
+
+nav{
+    
+    display: flex;
+    justify-content: space-between; 
+   
+   
+
+
+}
+h1{
+    text-align: center;
+}
+header,button{
+    text-align: center;
+}
