@@ -125,9 +125,12 @@ main{
    .comment{
    text-align: center;
    margin-top: 130px;
+
+   }
+   .image{
+    border-radius: 30px;
    }
    .reacts{
-    border: 1px solid red;
     flex-direction: row;
     border-radius: 10px;
     background-color: #FFFFFF;
