@@ -17,7 +17,7 @@ nav{
     justify-content: space-between; 
     weight: 1140px;
     height: 151px;
-    margin: auto;
+    margin:0 auto;
     color:#4E47FF ;
     padding: 0;
     
@@ -53,23 +53,43 @@ nav{
    }
 main{
     max-width: 1440px;
-    height: ;
     display: flex;
-    margin: auto;
-    justify-content: space-between;
+    flex-direction: column;
+
+    margin:0 auto;
+   
    
 }
+    
+.section-title{
+    width: 40%
+    
+    margin: 0 auto;
+}
+.about button{
+     margin: auto;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: #FFFFFF;
+    padding: 12px 36px;
+    background-color: #4E47FF;
 
-   .leftsection{
+}
+
+   .about {
     width: 40%;
-    margin: auto;
-
+    margin:0 auto;
+    padding: 130px 150px;
+    text-align: center;
+    display: flex;
+    
+    
    }
    .see{
     font-size: 42px;
    }
    .leftsection button{
-    margin: auto;
+    margin:0 auto;
     border-radius: 10px;
     font-weight: bolder;
     color: #FFFFFF;
@@ -80,11 +100,16 @@ main{
    .rightsection{
     border-radius: 40px;
      width: 30%;
-     margin: auto;
+     margin: 0 auto;
 
    }
    .parent div{
-    box-sizing: content-box;
+    margin: 0 auto;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+    background-color: #4E47FF;
+    
 
    }
    .fontsize{
@@ -92,9 +117,56 @@ main{
     font-size: 100px;
     color: #4E47FF;
     display: flex;
+    justify-content: space-around;
    }
+   
 
    
+   .comment{
+   text-align: center;
+   margin-top: 130px;
+   }
+   .reacts{
+    border: 1px solid red;
+    flex-direction: row;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    text-align: left;
+    justify-content: space-around;
+   }
+   .style{
+    display: flex;
+    justify-content: space-around;
+   }
+   .get{
+    margin-top: 130px;
+    
+   }
+   .get button{
+
+    margin: auto;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: #FFFFFF;
+    padding: 12px 36px;
+    background-color: #4E47FF;
+
+   }
+   .last{
+    text-align: center;
+    max-width: 1440px;
+    margin-top: 130px;
+   }
+
+   .footer{
+    list-style-type: none;
+    
+    display: flex;
+    justify-content: space-between;color: #8987A1;
+   }
+   .color{
+    color: #8987A1;
+   }
   
 
 
