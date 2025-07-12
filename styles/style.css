@@ -51,13 +51,15 @@ nav{
     font-size: 30px;
 
    }
-.mainsection{
+main{
     max-width: 1440px;
     height: ;
     display: flex;
     margin: auto;
     justify-content: space-between;
+   
 }
+
    .leftsection{
     width: 40%;
     margin: auto;
@@ -80,6 +82,16 @@ nav{
      width: 30%;
      margin: auto;
 
+   }
+   .parent div{
+    box-sizing: content-box;
+
+   }
+   .fontsize{
+    list-style-type: none;
+    font-size: 100px;
+    color: #4E47FF;
+    display: flex;
    }
 
    
